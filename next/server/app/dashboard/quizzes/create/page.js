@@ -1,0 +1,803 @@
+(() => {
+var exports = {};
+exports.id = 9757;
+exports.ids = [9757];
+exports.modules = {
+
+/***/ 18038:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react");
+
+/***/ }),
+
+/***/ 98704:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
+
+/***/ }),
+
+/***/ 97897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
+
+/***/ }),
+
+/***/ 56786:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react/jsx-runtime");
+
+/***/ }),
+
+/***/ 5868:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/app-render");
+
+/***/ }),
+
+/***/ 41844:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/get-segment-param");
+
+/***/ }),
+
+/***/ 96624:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/future/helpers/interception-routes");
+
+/***/ }),
+
+/***/ 75281:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/future/route-modules/route-module");
+
+/***/ }),
+
+/***/ 57085:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context");
+
+/***/ }),
+
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
+/***/ 1830:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/get-img-props");
+
+/***/ }),
+
+/***/ 20199:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/hash");
+
+/***/ }),
+
+/***/ 66864:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head");
+
+/***/ }),
+
+/***/ 39569:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/hooks-client-context");
+
+/***/ }),
+
+/***/ 69274:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/hooks-client-context.js");
+
+/***/ }),
+
+/***/ 52210:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config");
+
+/***/ }),
+
+/***/ 35359:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context");
+
+/***/ }),
+
+/***/ 17160:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router-context");
+
+/***/ }),
+
+/***/ 30893:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
+
+/***/ }),
+
+/***/ 12336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
+/***/ 17887:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll");
+
+/***/ }),
+
+/***/ 98735:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 60120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
+
+/***/ }),
+
+/***/ 68231:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path");
+
+/***/ }),
+
+/***/ 53750:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash");
+
+/***/ }),
+
+/***/ 70982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
+/***/ 79618:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 3349:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/server-inserted-html.js");
+
+/***/ }),
+
+/***/ 78423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
+
+/***/ }),
+
+/***/ 98658:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once");
+
+/***/ }),
+
+/***/ 39491:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ 14300:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ 6113:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ 82361:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ 57147:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 13685:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ 95687:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ 22037:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ 71017:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ 63477:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("querystring");
+
+/***/ }),
+
+/***/ 12781:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ 76224:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ 57310:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ 73837:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ 59796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ 84393:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   GlobalError: () => (/* reexport safe */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_1__.GlobalError),
+/* harmony export */   __next_app__: () => (/* binding */ __next_app__),
+/* harmony export */   originalPathname: () => (/* binding */ originalPathname),
+/* harmony export */   pages: () => (/* binding */ pages),
+/* harmony export */   routeModule: () => (/* binding */ routeModule),
+/* harmony export */   tree: () => (/* binding */ tree)
+/* harmony export */ });
+/* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31240);
+/* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(49506);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(95394);
+/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_2__) if(["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_2__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+    
+
+    const tree = {
+        children: [
+        '',
+        {
+        children: [
+        'dashboard',
+        {
+        children: [
+        'quizzes',
+        {
+        children: [
+        'create',
+        {
+        children: ['__PAGE__', {}, {
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59921)), "C:\\Users\\Avinash\\Downloads\\temp\\app\\dashboard\\quizzes\\create\\page.tsx"],
+          
+        }]
+      },
+        {
+          
+          
+        }
+      ]
+      },
+        {
+          
+          
+        }
+      ]
+      },
+        {
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83767)), "C:\\Users\\Avinash\\Downloads\\temp\\app\\dashboard\\layout.tsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 76176)), "C:\\Users\\Avinash\\Downloads\\temp\\app\\dashboard\\loading.tsx"],
+          metadata: {
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83174))).default(props))],
+    apple: [],
+    openGraph: [],
+    twitter: [],
+    manifest: undefined
+  }
+        }
+      ]
+      },
+        {
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 32613)), "C:\\Users\\Avinash\\Downloads\\temp\\app\\layout.tsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 94363)), "C:\\Users\\Avinash\\Downloads\\temp\\app\\error.tsx"],
+          metadata: {
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83174))).default(props))],
+    apple: [],
+    openGraph: [],
+    twitter: [],
+    manifest: undefined
+  }
+        }
+      ]
+      }.children;
+    const pages = ["C:\\Users\\Avinash\\Downloads\\temp\\app\\dashboard\\quizzes\\create\\page.tsx"];
+
+    
+
+    const originalPathname = "/dashboard/quizzes/create/page"
+    const __next_app__ = {
+      require: __webpack_require__,
+      // all modules are in the entry chunk, so we never actually need to load chunks in webpack
+      loadChunk: () => Promise.resolve()
+    }
+
+    
+
+    // Create and export the route module that will be consumed.
+    const options = {"definition":{"kind":"APP_PAGE","page":"/dashboard/quizzes/create/page","pathname":"/dashboard/quizzes/create","bundlePath":"app/dashboard/quizzes/create/page","filename":"","appPaths":[]}}
+    const routeModule = new (next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0___default())({
+      ...options,
+      userland: {
+        loaderTree: tree,
+      },
+    })
+  
+
+/***/ }),
+
+/***/ 93214:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40723))
+
+/***/ }),
+
+/***/ 40723:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ CreateQuiz)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: ./node_modules/react-select/dist/react-select.esm.js + 50 modules
+var react_select_esm = __webpack_require__(50147);
+// EXTERNAL MODULE: ./services/lessons/LessonService.ts
+var LessonService = __webpack_require__(33613);
+// EXTERNAL MODULE: ./validations/quiz/CreateQuizSchema.ts
+var CreateQuizSchema = __webpack_require__(62341);
+// EXTERNAL MODULE: ./node_modules/formik/dist/index.js
+var dist = __webpack_require__(6135);
+// EXTERNAL MODULE: ./node_modules/react-hot-toast/dist/index.mjs + 1 modules
+var react_hot_toast_dist = __webpack_require__(33518);
+// EXTERNAL MODULE: ./node_modules/react-query/lib/index.js
+var lib = __webpack_require__(53167);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(18038);
+// EXTERNAL MODULE: ./services/quiz/QuizService.ts
+var QuizService = __webpack_require__(97010);
+// EXTERNAL MODULE: ./node_modules/next/navigation.js
+var navigation = __webpack_require__(59483);
+;// CONCATENATED MODULE: ./app/dashboard/quizzes/create/useCreateQuiz.ts
+
+
+
+
+
+
+
+
+const initialValues = {
+    title: "",
+    description: "",
+    duration: 0,
+    passingScore: 0
+};
+function useCreateQuiz(token) {
+    const router = (0,navigation.useRouter)();
+    const queryClient = (0,lib.useQueryClient)();
+    const { handleChange, handleSubmit, values, errors } = (0,dist.useFormik)({
+        initialValues,
+        validationSchema: CreateQuizSchema/* CreateQuizSchema */.z,
+        async onSubmit (values) {
+            await createQuiz(values);
+        }
+    });
+    const { data } = (0,lib.useQuery)([
+        "select-lessons"
+    ], ()=>LessonService/* default */.Z.getLessons(token, "?fields[0]=title"), {
+        staleTime: Infinity,
+        onError: ()=>react_hot_toast_dist/* toast */.Am.error("something went wrong at fetching courses please try again")
+    });
+    const { mutateAsync: createQuizMutation, isLoading: loading } = (0,lib.useMutation)((data)=>QuizService/* default */.Z.createQuiz(token, data), {
+        onSuccess: async ({ data })=>{
+            await queryClient.invalidateQueries([
+                "quizzes"
+            ]);
+            react_hot_toast_dist/* toast */.Am.success("Lesson created successfully");
+            router.push(`/dashboard/quizzes/${data.id}`);
+        }
+    });
+    async function createQuiz(value) {
+        if (!lesson.value) {
+            react_hot_toast_dist/* toast */.Am.error("please select lesson");
+            return;
+        }
+        try {
+            const data = {
+                data: {
+                    lesson: lesson.value,
+                    passing_score: value.passingScore,
+                    ...values
+                }
+            };
+            await createQuizMutation(data);
+        } catch (e) {
+            react_hot_toast_dist/* toast */.Am.error(e.response.data.error.message || "something went wrong, please try again!");
+        }
+    }
+    const [lessons, setLessons] = (0,react_.useState)();
+    const [lesson, setLesson] = (0,react_.useState)({
+        value: "",
+        label: ""
+    });
+    (0,react_.useEffect)(()=>{
+        setLessons(data?.data.map((lesson)=>({
+                value: lesson.id.toString(),
+                label: lesson.attributes.title
+            })));
+    }, [
+        data
+    ]);
+    return {
+        handleChange,
+        handleSubmit,
+        values,
+        errors,
+        lessons,
+        lesson,
+        setLesson,
+        loading
+    };
+}
+
+// EXTERNAL MODULE: ./components/index.ts + 3 modules
+var components = __webpack_require__(57091);
+;// CONCATENATED MODULE: ./app/dashboard/quizzes/create/CreateQuiz.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+function CreateQuiz({ token }) {
+    const { errors, handleChange, handleSubmit, values, lessons, lesson, setLesson, loading } = useCreateQuiz(token);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        className: "text-xl font-bold",
+                        children: "Create a new quiz"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: "Add the information about the quiz"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                onSubmit: handleSubmit,
+                className: "rounded-md bg-white p-3 shadow-md",
+                action: "",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mb-12",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(components/* Input */.II, {
+                            name: "title",
+                            value: values.title,
+                            onChange: handleChange,
+                            error: errors.title,
+                            label: "Quiz title",
+                            variant: "filled"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mb-12",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(components/* Textarea */.gx, {
+                            name: "description",
+                            value: values.description,
+                            onChange: handleChange,
+                            error: errors.description,
+                            label: "Quiz description",
+                            variant: "filled"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mb-12",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(components/* Input */.II, {
+                            name: "duration",
+                            //   value={values.duration}
+                            onChange: handleChange,
+                            error: errors.duration,
+                            label: "Quiz duration",
+                            variant: "filled",
+                            type: "text"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mb-12",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(components/* Input */.II, {
+                            name: "passingScore",
+                            value: values.passingScore,
+                            onChange: handleChange,
+                            error: errors.passingScore,
+                            label: "Passing score",
+                            variant: "filled"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mb-12 grid grid-cols-1 gap-12  md:grid-cols-2 md:gap-8",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "flex flex-col",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: "",
+                                    className: "mb-2 text-sm",
+                                    children: "Choose a lesson"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(react_select_esm/* default */.ZP, {
+                                    value: lesson,
+                                    onChange: (e)=>setLesson({
+                                            value: e?.value.toString(),
+                                            label: e?.label
+                                        }),
+                                    options: lessons
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex justify-end",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(components/* Button */.zx, {
+                            loading: loading,
+                            type: "submit",
+                            className: "w-fit text-white",
+                            children: "Create quiz"
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 21830:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(40248);
+
+const api = axios__WEBPACK_IMPORTED_MODULE_0__["default"].create({
+    baseURL: `${process.env.NEXT_PUBLIC_BASE_URL}/api`,
+    headers: {
+        "Content-Type": "application/json"
+    }
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (api);
+
+
+/***/ }),
+
+/***/ 62341:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   z: () => (/* binding */ CreateQuizSchema)
+/* harmony export */ });
+/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(58952);
+
+const CreateQuizSchema = yup__WEBPACK_IMPORTED_MODULE_0__/* .object */ .Ry({
+    title: yup__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_().trim("quiz title should be valid").required("quiz title is required"),
+    description: yup__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_().trim("quiz description is required").required("quiz description is required"),
+    duration: yup__WEBPACK_IMPORTED_MODULE_0__/* .number */ .Rx().required("duration is required").transform((val, originalVal)=>parseInt(val)),
+    passingScore: yup__WEBPACK_IMPORTED_MODULE_0__/* .number */ .Rx().required("passing score is required").transform((val, originalVal)=>parseInt(val))
+});
+
+
+/***/ }),
+
+/***/ 59921:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ page)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: ./utils/auth.utils.ts
+var auth_utils = __webpack_require__(17590);
+// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
+var module_proxy = __webpack_require__(17814);
+;// CONCATENATED MODULE: ./app/dashboard/quizzes/create/CreateQuiz.tsx
+
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Avinash\Downloads\temp\app\dashboard\quizzes\create\CreateQuiz.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const CreateQuiz = (__default__);
+;// CONCATENATED MODULE: ./app/dashboard/quizzes/create/page.tsx
+
+
+
+async function page() {
+    const session = await (0,auth_utils/* getCurrentUser */.t)();
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ jsx_runtime_.jsx(CreateQuiz, {
+            token: session?.token
+        })
+    });
+}
+
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, [2669,525,659,7777,3962,3928,248,1368,147,8660,2949,551,3613,7010], () => (__webpack_exec__(84393)));
+module.exports = __webpack_exports__;
+
+})();
